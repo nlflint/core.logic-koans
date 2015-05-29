@@ -7,16 +7,16 @@ fail can never succeed."
     __)
 
  "succeed is a goal that succeeds. Remember run* always returns a sequence.
-run* found one solution for q, _.0. This means that any value q is
+run* found one solution for q, _0. This means that any value q is
 satisfactory. This makes sense, succeed always succeeds"
  (= (run* [q] __)
-    '(_.0))
+    '(_0))
 
  "The goals contained in run* form a logical conjunction (AND). For
 example here we want some goal A that succeeds and some goal B that
 succeeds such that it does not matter what value q is."
  (= (run* [q] __ ___)
-    '(_.0))
+    '(_0))
 
  "We know of two goals, succeed and fail. Since run* is like AND, if
 any goal fails, the entire program fails."
