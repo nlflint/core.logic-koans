@@ -1,4 +1,7 @@
- "fail is a goal that fails. A goal is some statement we would like to
+(ns koans.basics
+  (:use [clojure.core.logic]))
+
+"fail is a goal that fails. A goal is some statement we would like to
 satisfy. run* lets us to specify a series of goals we would like to
 satisfy. run* always returns a sequence. The empty sequence means that
 there is no value q such that q can satisfy the goals. This makes sense,
