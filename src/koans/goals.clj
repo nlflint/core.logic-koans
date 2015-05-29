@@ -1,4 +1,4 @@
-(meditations
+
  "The firsto relation works similarly to first first. Many interesting goals have 'output'
 variables. What do you think q will be in this case?"
  (= (run* [q]
@@ -65,4 +65,3 @@ particular use of membero?"
      (run 2 [q]
        (membero 'cat q)))
     __)
- )

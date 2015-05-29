@@ -1,4 +1,3 @@
-(meditations
  "Note that sequences and vectors can be unified. What value will a and b take?"
  (= (run* [q]
       (fresh [a b x y]
@@ -14,4 +13,3 @@ in the keys of a map. What value will q take?"
         (== x {:foo 1})
         (== x {:foo q})))
     '(__))
- )

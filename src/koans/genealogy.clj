@@ -42,7 +42,6 @@
    (male y)
    (child x y)))
 
-(meditations
  "What goal(s) defines Johns relation to Bobby?"
  (= (run* [q]
       (__ 'John q))
@@ -67,4 +66,3 @@
   (= (run* [q]
        (grandchild q 'Harold))
      '(George Martha)))
- )
