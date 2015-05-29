@@ -1,4 +1,3 @@
-(meditations
  "fail is a goal that fails. A goal is some statement we would like to
 satisfy. run* lets us to specify a series of goals we would like to
 satisfy. run* always returns a sequence. The empty sequence means that
@@ -6,7 +5,7 @@ there is no value q such that q can satisfy the goals. This makes sense,
 fail can never succeed."
  (= (run* [q] fail)
     __)
- 
+
  "succeed is a goal that succeeds. Remember run* always returns a sequence.
 run* found one solution for q, _.0. This means that any value q is
 satisfactory. This makes sense, succeed always succeeds"
@@ -108,4 +107,3 @@ that's ok, the others will be tried."
            [(== q 'another-answer) (== x 2)])
          (== x 1)))
      __)
- )
